@@ -1,0 +1,36 @@
+.main-container {
+    background-color: #1c1c1c;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .about-section {
+    margin-bottom: 3rem;
+  }
+  
+  .team-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .team-image {
+    width: 200px;
+    border-radius: 8px;
+  }
+  
+  .team-heading {
+    font-size: 2rem;
+  }
+  

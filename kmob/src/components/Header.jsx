@@ -7,8 +7,8 @@ function Header() {
     <header className="header">
       <div className="header-top">
         <img src="https://via.placeholder.com/50" alt="Logo" className="logo" />
-        <h1 className="site-title">Your Website Name</h1>
-        <img src="https://via.placeholder.com/50" alt="Icon" className="logo" />
+        <h1 className="site-title">OBSCURA</h1>
+        <img src="c4_logo.png" alt="Icon" className="logo" />
       </div>
       <Navbar />
     </header>

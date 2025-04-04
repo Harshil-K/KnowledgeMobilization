@@ -1,6 +1,6 @@
 .main-container {
-  background-color: #002147; /* Oxford Blue */
-  color: #f5f5f5; /* Off-white for text */
+  background-color: #003135;
+  color: #f5f5f5;
   min-height: 100vh;
   padding: 2rem;
   text-align: center;
@@ -11,7 +11,7 @@
   height: auto;
   border-radius: 10px;
   margin-bottom: 2rem;
-  border: 2px solid #C8B100; /* Academic Gold border */
+  border: 2px solid #C8B100;
 }
 
 .about-section {
@@ -23,12 +23,12 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: justify;
+  background-color: #024950;
   color: #f5f5f5;
   font-size: 1.1rem;
   line-height: 1.8;
-  background-color: #011c3a; /* Slightly lighter Oxford Blue */
   border-radius: 8px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
 }
 
 .about-obscura p {
@@ -42,15 +42,35 @@
   gap: 2rem;
   flex-wrap: wrap;
   margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 .team-image {
   width: 200px;
   border-radius: 8px;
-  border: 2px solid #C8B100;
 }
 
 .team-heading {
   font-size: 2rem;
   color: #C8B100;
 }
+.team-heading a {
+  color: #C8B100;
+  text-decoration: none;
+}
+
+.team-heading a:visited {
+  color: #C8B100;
+  text-decoration: none;
+}
+
+.team-heading a:hover {
+  color: #FFD700; /* optional lighter yellow on hover */
+  text-decoration: underline; /* or remove this if you want none even on hover */
+}
+
+.team-heading a:active {
+  color: #C8B100;
+  text-decoration: none;
+}
+

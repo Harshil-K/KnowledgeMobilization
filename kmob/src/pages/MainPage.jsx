@@ -39,7 +39,7 @@ function MainPage() {
 
         <section className="team-section">
           <img src="logo192.png" alt="Team" className="team-image" />
-          <h2 className="team-heading">Meet the Team</h2>
+          <h2 className="team-heading"><a href = "/team">Meet the Team</a></h2>
         </section>
       </div>
     </Layout>

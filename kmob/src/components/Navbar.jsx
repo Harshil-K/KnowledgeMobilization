@@ -5,9 +5,9 @@ import './HeaderFooter.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <Link to="/">Tab1</Link>
-      <Link to="/">Tab2</Link>
-      <Link to="/">Tab3</Link>
+      <Link to="/">Guidelines</Link>
+      <Link to="/">Legal Resources</Link>
+      <Link to="/">Financial Resources</Link>
       <Link to="/">FAQ</Link>
     </nav>
   );

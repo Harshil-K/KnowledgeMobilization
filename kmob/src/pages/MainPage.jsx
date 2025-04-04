@@ -38,7 +38,7 @@ function MainPage() {
         </section>
 
         <section className="team-section">
-          <img src="https://via.placeholder.com/200" alt="Team" className="team-image" />
+          <img src="logo192.png" alt="Team" className="team-image" />
           <h2 className="team-heading">Meet the Team</h2>
         </section>
       </div>

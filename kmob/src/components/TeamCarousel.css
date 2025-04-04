@@ -1,0 +1,63 @@
+.carousel-container {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .carousel-card {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .arrow-button {
+    background-color: transparent;
+    color: #C8B100;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .arrow-button:hover {
+    color: #fff;
+  }
+  
+  .member-info {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .member-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .dot-indicators {
+    margin-top: 1.5rem;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 6px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: #C8B100;
+  }
+  

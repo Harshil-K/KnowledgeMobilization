@@ -1,51 +1,58 @@
 .header {
-    background-color: #2a2a2a;
-    padding: 1rem 1rem 0 1rem;
-    color: white;
-  }
-  
-  .header-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-  }
-  
-  .logo {
-    width: 50px;
-    height: auto;
-  }
-  
-  .site-title {
-    flex: 1;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    padding: 0.5rem;
-    gap: 1.5rem;
-  }
-  
-  .navbar a {
-    color: #ddd;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .navbar a:hover {
-    color: #fff;
-    border-bottom: 2px solid #fff;
-  }
-  
-  .footer {
-    background-color: #2a2a2a;
-    color: #ccc;
-    text-align: center;
-    padding: 1rem;
-    margin-top: auto;
-  }
-  
+  background-color: #002147; /* Oxford Blue */
+  padding: 1rem 1rem 0 1rem;
+  color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.site-title {
+  flex: 1;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #C8B100; /* Academic Gold */
+  font-family: 'Georgia', serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #011c3a; /* Slightly lighter Oxford Blue */
+  padding: 0.5rem 1rem;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #C8B100;
+  border-bottom: 2px solid #C8B100;
+}
+
+.footer {
+  background-color: #002147;
+  color: #ccc;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.95rem;
+  font-family: 'Georgia', serif;
+  border-top: 1px solid #C8B100;
+}

@@ -29,12 +29,12 @@ const teamMembers = [
   },
   {
     name: 'Mehnaz Mehzabin',
-    image: 'https://via.placeholder.com/150',
+    image: 'mehnaz.png',
     about: 'Mehnaz is a driven final-year Honours Health Sciences student, specializing in Nuclear Medicine and Radiology. With her strong academic foundation and research expertise, she excels in analyzing complex medical concepts and developing innovative solutions. Mehnaz is poised to make a meaningful impact in our team, leveraging her knowledge and skills to improve outcomes and research.',
   },
   {
     name: 'Siddhrajsinh Parmar',
-    image: 'https://via.placeholder.com/150',
+    image: 'Siddhraj.jpg',
     about: 'Sid is a computer engineering student with a real passion for the electrical side of engineering. He likes problem-solving and loves trying to create cool things. ',
   },
   {

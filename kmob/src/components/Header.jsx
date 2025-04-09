@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header-top">
-        <img src="https://via.placeholder.com/50" alt="Logo" className="logo" />
+        <img src="obscura_logo.png" alt="Logo" className="logo" />
         <h1 className="site-title">OBSCURA</h1>
         <img src="c4_logo.png" alt="Icon" className="logo" />
       </div>

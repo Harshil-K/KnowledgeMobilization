@@ -15,7 +15,7 @@ const legalResources = [
     {
         title: "Osgoode Community Legal Services",
         url: "https://www.osgoode.yorku.ca/community-legal-services/",
-        excerpt: "Implement robust data security and privacy measures to protect sensitive patient information.",
+        excerpt: "Osgoode Community Legal Services offers various free clinics providing legal advice, representation, and mediation services to residents and small businesses in Toronto.",
         body: `
             <p>Community clinics provided by Osgoode students, supervised by qualified lawyers. These clinics offer free or low-cost legal services in several areas, including:
             Administrative, criminal, and immigration lawInvestor protection

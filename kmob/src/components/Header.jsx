@@ -7,6 +7,8 @@ function Header() {
     <header className="header">
       <div className="header-top">
         <a href = "/"><img src="obscura_logo.png" alt="Logo" className="logo" /></a>
+
+        
         <h1 className="site-title">OBSCURA</h1>
         <img src="c4_logo.png" alt="Icon" className="logo" />
       </div>

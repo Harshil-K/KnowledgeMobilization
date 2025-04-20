@@ -34,7 +34,7 @@ const teamMembers = [
   },
   {
     name: 'Siddhrajsinh Parmar',
-    image: 'https://via.placeholder.com/150',
+    image: 'Siddhraj.jpg',
     about: 'Sid is a computer engineering student with a real passion for the electrical side of engineering. He likes problem-solving and loves trying to create cool things. ',
   },
   {
@@ -44,7 +44,7 @@ const teamMembers = [
   },
   {
     name: 'Aidan Victorino Avila',
-    image: 'https://via.placeholder.com/150',
+    image: 'Aiden.jpg',
     about: 'With a background in administrative work, an education focused on environmental sustainability, and a passion for both problem-solving and visual creativity, Aidan has a well-rounded base to deal with any problem coming his way.',
   },
 ];

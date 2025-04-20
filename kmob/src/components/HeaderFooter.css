@@ -1,10 +1,15 @@
 .header {
-  background-color: #024950;
+  background-color: #fff;
   padding: 1rem 0 0 0;
   color: #f5f5f5;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-
+.full-width-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #010101; /* or red or any other accent color */
+  margin: 0 auto;
+}
 .header-top {
   display: flex;
   align-items: center;
@@ -22,40 +27,53 @@
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  color: #fdd835;
+  color: #96151C;
   font-family: 'Georgia', serif;
 }
 
+.site-description {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: #000;
+  font-family: 'Georgia', serif;
+}
+.navbar-container {
+  border: 1px solid #96151C;         /* Red border around the whole nav */
+  padding: 0.8rem 2rem;          /* Padding inside the box (left/right) */
+  margin: 0rem auto;             /* Space above/below and center horizontally */
+  width: fit-content;            /* Shrinks to wrap only the nav links */
+  background-color: transparent; /* Clear background */
+}
+
 .navbar {
-  width: 100vw; /* fills full viewport width */
-  margin: 0;
-  padding: 0.5rem 0; /* remove side padding */
   display: flex;
+  flex-wrap: wrap;              /* Wrap if too many links */
   justify-content: center;
-  background-color: #013c44;
   gap: 1.5rem;
 }
 
-
 .navbar a {
-  color: #f5f5f5;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1rem;
-  transition: all 0.3s ease;
+  color: black;
 }
-
 .navbar a:hover {
-  color: #C8B100;
-  border-bottom: 2px solid #C8B100;
+  color: #96151C;
+  border-bottom: 2px solid #96151C;
 }
 
 .footer {
-  background-color: #024950;
+  background-color: #fff;
   color: #ccc;
   text-align: center;
   padding: 1.5rem 1rem;
   font-size: 0.95rem;
   font-family: 'Georgia', serif;
-  border-top: 1px solid #C8B100;
+  border-top: 1px solid #010101;
 }

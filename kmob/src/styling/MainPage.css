@@ -11,11 +11,12 @@
   height: auto;
   border-radius: 10px;
   margin-bottom: 2rem;
-  border: 2px solid #C8B100;
+  border: 2px solid #96151C;
 }
 
 .about-section {
   margin-bottom: 3rem;
+  color: #010101
 }
 
 .about-obscura {
@@ -24,7 +25,7 @@
   padding: 2rem;
   text-align: justify;
   background-color: #ccc;
-  color: #f5f5f5;
+  color: #96151C;
   font-size: 1.1rem;
   line-height: 1.8;
   border-radius: 8px;
@@ -52,25 +53,20 @@
 
 .team-heading {
   font-size: 2rem;
-  color: #C8B100;
+  color: #010101;
 }
 .team-heading a {
-  color: #C8B100;
+  color: #010101;
   text-decoration: none;
 }
 
 .team-heading a:visited {
-  color: #C8B100;
+  color: #010101;
   text-decoration: none;
 }
 
 .team-heading a:hover {
-  color: #FFD700;
   text-decoration: underline;
 }
 
-.team-heading a:active {
-  color: #C8B100;
-  text-decoration: none;
-}
 

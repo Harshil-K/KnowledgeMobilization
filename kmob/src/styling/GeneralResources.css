@@ -45,7 +45,7 @@
 
 .general-resource-title a {
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
 
 .general-resource-title a:hover {
@@ -85,6 +85,7 @@
 
   .general-resource-title {
       font-size: 1.5rem;
+      color: black
   }
 
   .general-resource-excerpt,

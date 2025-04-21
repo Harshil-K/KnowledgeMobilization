@@ -56,8 +56,8 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: white; /* or black if you want to dim */
-  opacity: 0.85; /* 🔥 adjust this to control translucency */
+  background-color: white; 
+  opacity: 0.95; 
   z-index: 1;
   pointer-events: none;
 }

@@ -1,81 +1,94 @@
 
-.general-resources {
+.page-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  font-family: "Ibarra Real Nova", serif; 
+  text-align: left;
+  margin: 1rem 1;
+  padding-left: 2rem;
+}
 
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 1.5rem;
+@media (max-width: 768px) {
+  .page-title {
+      font-size: 2rem;
+      margin-left: 2rem;
   }
-  
-  
-  .general-resource-card {
-    background-color: #024950;
-    border-radius: 12px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.general-resources {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+.general-resource-card {
+  background-color: hwb(0 100% 0%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.general-resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(224, 7, 7, 0.3);
+}
+
+.general-resource-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #96151C;
+  font-style: normal;
+  font-family: "Ibarra Real Nova", serif; 
+}
+
+.general-resource-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.general-resource-title a:hover {
+  text-decoration: underline;
+}
+
+.general-resource-excerpt {
+  color: #96151C;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-family: "Neue Montreal", sans-serif; 
+}
+
+.general-resource-body {
+  color: #96151C;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  margin-top: 1rem;
+  font-family: "Neue Montreal", sans-serif; 
+}
+
+.read-more-link {
+  color: #96151C; 
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.read-more-link:hover {
+  color: #ff8000; 
+}
+
+@media (max-width: 768px) {
+  .general-resources {
+      padding: 1rem;
   }
-  
-  .general-resource-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(110, 32, 32, 0.3);
-  }
-  
-  
+
   .general-resource-title {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #C8B100;
+      font-size: 1.5rem;
   }
-  
-  .general-resource-title a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .general-resource-title a:hover {
-    text-decoration: underline;
-  }
-  
-  .general-resource-excerpt {
-    color: #f5f5f5;
-    font-size: 1rem;
-    margin-top: 0.5rem;
-  }
-  
-  
+
+  .general-resource-excerpt,
   .general-resource-body {
-    color: #dcdcdc;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    margin-top: 1rem;
+      font-size: 0.85rem;
   }
-  
-  
-  .read-more-link {
-    color: #d5b91b; 
-    font-weight: bold;
-    text-decoration: underline;
-    transition: color 0.3s ease;
-  }
-  
-  .read-more-link:hover {
-    color: #FFA500; 
-  }
-  
-  
-  @media (max-width: 768px) {
-    .general-resources {
-        padding: 1rem;
-    }
-  
-    .general-resource-title {
-        font-size: 1.5rem;
-    }
-  
-    .general-resource-excerpt,
-    .general-resource-body {
-        font-size: 0.85rem;
-    }
-  }
-  
+}

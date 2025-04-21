@@ -7,11 +7,11 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.layout {
+  position: relative;
+  background-image: url('assets/home_background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
+
+.layout::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white; /* or black if you want to dim */
+  opacity: 0.85; /* 🔥 adjust this to control translucency */
+  z-index: 1;
+  pointer-events: none;
+}
+.layout > * {
+  position: relative;
+  z-index: 2;
+}
+

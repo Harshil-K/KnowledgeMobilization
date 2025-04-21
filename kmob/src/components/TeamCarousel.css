@@ -1,12 +1,10 @@
 .carousel-container {
-  background-color: #003135;
   text-align: center;
   color: #f5f5f5;
   padding: 2rem;
 }
 
 .carousel-card {
-  background-color: #024950;
   border-radius: 10px;
   padding: 2rem;
   display: flex;
@@ -69,7 +67,6 @@
 }
 
 .dot.active {
-  background-color: #C8B100;
 }
 .mission{
   margin-top: 10rem; /* You can increase this value for more space */

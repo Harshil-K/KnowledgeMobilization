@@ -6,7 +6,7 @@ function MainPage() {
   return (
     <Layout>
       <div className="main-container">
-        <img src="https://via.placeholder.com/1200x300" alt="Banner" className="hero-image" />
+        <img src="home_banner.jpg" alt="Banner" className="banner-image" />
 
         <section className="about-section">
           <h2>About the Website</h2>

@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: kmob-service
+    env: docker
+    rootDir: kmob
+    plan: free

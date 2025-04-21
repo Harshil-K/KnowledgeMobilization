@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeaderFooter.css';
 
+//Add Social Media
 function Footer() {
   return (
     <footer className="footer">

@@ -1,0 +1,94 @@
+.page-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  font-family: "Ibarra Real Nova", serif; 
+  text-align: left;
+  margin: 1rem 1;
+  padding-left: 2rem;
+}
+
+@media (max-width: 768px) {
+  .page-title {
+      font-size: 2rem;
+      margin-left: 2rem;
+  }
+}
+  
+  .guidelines {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+  }
+  
+  .guidelines-resource-card {
+    background-color: hwb(0 100% 0%);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .guidelines-resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(224, 7, 7, 0.3);
+  }
+  
+  .guidelines-resource-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #96151C;
+    font-style: normal;
+    font-family: "Ibarra Real Nova", serif; 
+  }
+  
+  .guidelines-resource-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .guidelines-resource-title a:hover {
+    text-decoration: underline;
+  }
+  
+  .guidelines-resource-excerpt {
+    color: #96151C;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-family: "Neue Montreal", sans-serif; 
+  }
+  
+  .guidelines-resource-body {
+    color: #96151C;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    font-family: "Neue Montreal", sans-serif; 
+  }
+  
+  .read-more-link {
+    color: #96151C; 
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .read-more-link:hover {
+    color: #ff8000; 
+  }
+  
+  @media (max-width: 768px) {
+    .guidelines {
+        padding: 1rem;
+    }
+  
+    .guidelines-resource-title {
+        font-size: 1.5rem;
+    }
+  
+    .guidelines-resource-excerpt,
+    .guidelines-resource-body {
+        font-size: 0.85rem;
+    }
+  }

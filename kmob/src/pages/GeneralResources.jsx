@@ -38,6 +38,7 @@ const GeneralResources = () => {
 
     return (
         <Layout>
+            <h1 className="page-title">General Resources</h1>
             <section className="general-resources">
                 {generalResources.map((resource) => (
                     <article key={resource.title} className="general-resource-card">

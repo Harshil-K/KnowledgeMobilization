@@ -5,10 +5,10 @@ import './HeaderFooter.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <Link to="/">Guidelines</Link>
+      <Link to="/guidelines">Guidelines</Link>
       <Link to="/generalresources">General Resources</Link>
       <Link to="/legalresources">Legal Resources</Link>
-      <Link to="/">Financial Resources</Link>
+      <Link to="/financialresources">Financial Resources</Link>
       <Link to="/RAForm">Risk Assessment Form</Link>
       <Link to="/">FAQ</Link>
       <Link to="/team">About Us</Link>

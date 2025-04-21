@@ -33,13 +33,11 @@ function MainPage() {
   </p>
 </div>
 
-
-
         </section>
 
         <section className="team-section">
           <img src="logo192.png" alt="Team" className="team-image" />
-          <h2 className="team-heading"><a href = "/team">About Us</a></h2>
+          <h2 className="team-heading"><a href = "/team">The Minds Behind This</a></h2>
         </section>
       </div>
     </Layout>

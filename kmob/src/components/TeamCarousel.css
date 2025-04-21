@@ -37,17 +37,19 @@
 .member-info h3 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
+  color: #010101
 }
 
 .member-info p {
   font-size: 1.1rem;
+  color: #96151C
 }
 
 .member-image {
   width: 200px;
   height: auto;
   object-fit: cover;
-  border-radius: 8px; /* Rectangular with slight rounding */
+  border-radius: 8px;
 }
 
 .dot-indicators {

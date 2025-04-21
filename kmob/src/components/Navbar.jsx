@@ -11,7 +11,7 @@ function Navbar() {
       <Link to="/">Financial Resources</Link>
       <Link to="/RAForm">Risk Assessment Form</Link>
       <Link to="/">FAQ</Link>
-      <Link to="/">About Us</Link>
+      <Link to="/team">About Us</Link>
     </nav>
   );
 }

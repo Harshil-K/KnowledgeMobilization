@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import '../styling/Guidelines.css';
 import Layout from '../components/Layout';
 
-const guidelines = [
+const guidelines = [ 
     {
         title: "Just an example : Academic Integrity Guidelines",
         url: "https://example.com/academic-integrity",

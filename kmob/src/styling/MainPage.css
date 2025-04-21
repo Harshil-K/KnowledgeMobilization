@@ -48,13 +48,20 @@
 }
 
 .team-image {
-  width: 200px;
+  width: 550px;
   border-radius: 8px;
 }
+
+.team-text-image {
+  width: 600px;
+  border-radius: 8px;
+}
+
 
 .team-heading {
   font-size: 2rem;
   color: #010101;
+  font-family: 'Ibarra Real Nova';
 }
 .team-heading a {
   color: #010101;

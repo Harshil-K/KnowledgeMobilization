@@ -5,6 +5,7 @@ import './HeaderFooter.css';
 function Navbar() {
   return (
     <nav className="navbar">
+      <Link to="/">Home</Link>
       <Link to="/guidelines">Guidelines</Link>
       <Link to="/generalresources">General Resources</Link>
       <Link to="/legalresources">Legal Resources</Link>

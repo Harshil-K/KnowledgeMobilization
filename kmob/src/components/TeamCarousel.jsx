@@ -45,7 +45,7 @@ const teamMembers = [
   },
   {
     name: 'Aidan Victorino Avila',
-    image: 'Aiden.jpg',
+    image: 'aiden.jpg',
     about: 'With a background in administrative work, an education focused on environmental sustainability, and a passion for both problem-solving and visual creativity, Aidan has a well-rounded base to deal with any problem coming his way.',
   },
 ];

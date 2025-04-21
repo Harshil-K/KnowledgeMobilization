@@ -69,11 +69,10 @@ background-color: transparent;
 }
 
 .footer {
-  color: #ccc;
+  background-color: #fff;
   text-align: center;
   padding: 1.5rem 1rem;
   font-size: 0.95rem;
   font-family: 'Georgia', serif;
   border-top: 1px solid #010101;
-  background-color: transparent;
 }

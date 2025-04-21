@@ -5,8 +5,8 @@ import { useLocation } from 'react-router-dom';
 
 
 function Header() {
-  const location = useLocation(); // ⬅️ Get current route
-  const isHomePage = location.pathname === '/'; // ⬅️ Check if it's the homepage
+  const location = useLocation(); 
+  const isHomePage = location.pathname === '/'; 
 
   return (
     <header className="header">

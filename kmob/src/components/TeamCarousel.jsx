@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './TeamCarousel.css';
+import banner from '../assets/team_banner.jpg';
 
 const teamMembers = [
   {
@@ -69,7 +70,19 @@ function TeamCarousel() {
 
   return (
 <div className="carousel-container">
-  <h2>Meet The Team</h2>
+  <img src={banner} alt="Banner" className="banner-image" />
+<section className="mission">
+   
+    <h2>Our Mission</h2>
+    <p className="justified-text">
+    Our mission is to leverage technology thoughtfully and responsibly, ensuring academic knowledge is mobilized safely and inclusively across social media and public platforms—especially for equity-seeking communities. 
+    Our vision is a future where access to reliable, empowering information helps reduce inequalities, promotes quality education, and strengthens collaborative partnerships. 
+    Guided by respect, transparency, accountability, and commitment, we aim to treat each other and our communities with dignity, openly communicate our decisions and intentions, 
+    take ownership of our outcomes, and remain dedicated to the shared goal of equitable and safe knowledge sharing for all.
+    </p>
+</section>
+ 
+  <h2 className="meet-the-team">Meet The Team</h2>
 
   <div className="carousel-card">
     <button className="arrow-button left" onClick={prev}>&lt;</button>
@@ -94,15 +107,7 @@ function TeamCarousel() {
     ))}
   </div>
 
-<section className="mission">
-    <h2>Our Mission</h2>
-    <p className="justified-text">
-    Our mission is to leverage technology thoughtfully and responsibly, ensuring academic knowledge is mobilized safely and inclusively across social media and public platforms—especially for equity-seeking communities. 
-    Our vision is a future where access to reliable, empowering information helps reduce inequalities, promotes quality education, and strengthens collaborative partnerships. 
-    Guided by respect, transparency, accountability, and commitment, we aim to treat each other and our communities with dignity, openly communicate our decisions and intentions, 
-    take ownership of our outcomes, and remain dedicated to the shared goal of equitable and safe knowledge sharing for all.
-    </p>
-</section>
+
 </div>
   );
 }

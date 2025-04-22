@@ -7,6 +7,7 @@ import FinancialResources from './pages/FinancialResources';
 import RAFormPage from './pages/RAFormPage';
 import Guidelines from './pages/Guidelines';
 import FAQ from './pages/FAQ';
+import MissionPage from'./pages/MissionPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/generalresources" element={<GeneralResources/>} />
       <Route path="/financialresources" element={<FinancialResources/>} />
       <Route path="/faq" element={<FAQ/>} />
+      <Route path="/mission" element={<MissionPage/>} />
       <Route path="/guidelines" element={<Guidelines/>} />
     </Routes>
   );

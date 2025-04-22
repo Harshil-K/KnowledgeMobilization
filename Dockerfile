@@ -1,21 +1,15 @@
-# syntax=docker/dockerfile:1
-
-# Step 1: Build React app
+# Build step
 FROM node:18-alpine as build
 WORKDIR /app
-
-# Copy files and install dependencies
 COPY package*.json ./
 RUN npm install
 COPY . .
 RUN npm run build
 
-# Step 2: Serve using Nginx
-FROM nginx:alpine
-COPY --from=build /app/build /usr/share/nginx/html
-
-# Optional: overwrite default Nginx config
-# COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+# Serve using 'serve'
+FROM node:18-alpine
+WORKDIR /app
+RUN npm install -g serve
+COPY --from=build /app/build ./build
+EXPOSE 3000
+CMD ["serve", "-s", "build", "-l", "3000"]

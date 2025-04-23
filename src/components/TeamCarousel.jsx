@@ -40,7 +40,7 @@ const teamMembers = [
   },
   {
     name: 'Emma Yeounseo Kim',
-    image: 'https://via.placeholder.com/150',
+    image: 'emma.jpeg',
     about: 'Emma has a background in nursing, where she has worked with many diverse equity seeking communities. Emma is also passionate about art and food- particularly eating more than cooking. ',
   },
   {

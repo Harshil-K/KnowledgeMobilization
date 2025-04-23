@@ -4,12 +4,19 @@ import Layout from '../components/Layout';
 
 const generalResources = [
     {
-        title: " General Resource ",
-        url: " Resource link when click on the title",
-        excerpt: " Resource excerpt just small introduction ",
+        title: "Canadian Association of University Teachers ",
+        url: "https://www.caut.ca/content/targeted-online-harassment-academic-staff",
+        excerpt: "Targeted Online Harassment of Academic Staff by Canadian Association of University Teachers (CAUT)",
         body: `
-            <p>Resource body not too much in detail but more in detail if there is no link, fill it up to show we did something Check example below </p>
-           
+            <p>This guide addresses online harassment of academic staff, a significant risk for HPSM researchers sharing controversial work. It recommends documenting incidents, reporting to equity offices, and adjusting social media privacy settings, with legal options like cease-and-desist letters or human rights complaints for identity-based harassment. Advising against engaging harassers and suggesting mental health support, it aligns with Obscura’s “Responding to Online Harassment” category, equipping researchers with practical steps to manage backlash, protect safety, and uphold legal rights in knowledge mobilization.</p>
+        `,
+    },
+    {
+        title: "York’s Response to Online Harassment",
+        url: "https://www.canva.com/design/DAFvMpmyff8/Zl-rjkpISH8LX_BiFtRxvQ/view",
+        excerpt: "York’s Response to Online Harassment by York University Centre for Human Rights, Equity and Inclusion",
+        body: `
+            <p>This infographic outlines York University’s protocol for addressing online harassment for students and staff, including researchers. It advises reporting to the Centre for Human Rights, Equity and Inclusion, documenting evidence, and accessing counselling. Legal steps include contacting campus security for threats or legal aid for lawsuits, emphasizing privacy protection and mediation. For HPSM researchers facing backlash, it provides institution-specific guidance, aligning with Obscura’s mission to centralize support, ensuring safety and legal recourse during knowledge mobilization challenges.</p>
         `,
     },
     {

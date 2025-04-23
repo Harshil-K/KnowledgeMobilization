@@ -4,12 +4,43 @@ import Layout from '../components/Layout';
 
 const financialResources = [
     {
-        title: "Financial Aid Overview",
-        url: "https://example.com/financial-aid",
-        excerpt: "An introduction to financial aid options available for students, including scholarships, grants, and loans.",
+        title: "Opportunities, and Threats of Crowdfunding",
+        url: "https://crowdfundinghealth.org/strengths-weaknesses-opportunities-and-threats-of-crowdfunding/",
+        excerpt: "Strengths, Weaknesses, Opportunities, and Threats of Crowdfunding by CrowdfundingHealth.org",
         body: `
-            <p>This resource provides a comprehensive overview of financial aid options for students. It covers scholarships, grants, and loans, including eligibility criteria and application processes. 
-            Learn how to navigate financial aid applications and maximize your funding opportunities. For more details, contact your institution's financial aid office or visit the provided link.</p>
+            <p>This article conducts a SWOT analysis of crowdfunding for research funding, particularly in health sciences. Strengths include public engagement and rapid fundraising, while weaknesses involve time investment and scrutiny risks for controversial topics. Opportunities include diversified funding, and threats include platform fees. For HPSM researchers with limited institutional support, it suggests ethical crowdfunding to fund publication or legal costs, offering an accessible financial strategy to support knowledge mobilization and maintain stability.</p>
+        `,
+    },
+    {
+        title: "Racial Equity Special Research Grants",
+        url: "https://example.com/financial-aid",
+        excerpt: "Racial Equity Special Research Grants by The Spencer Foundation",
+        body: `
+            <p>This grant program funds education research addressing racial equity, offering up to $75,000 for projects by HPSM researchers or those studying racialized communities. It supports studies confronting structural racism, covering research, publication, and dissemination costs. Requiring a narrative, budget, and EDI statement, it eases financial burdens for HPSM researchers tackling controversial racial equity topics, providing a key resource for funding knowledge mobilization and legal consultations.</p>
+        `,
+    },
+    {
+        title: "Opportunities, and Threats of Crowdfunding",
+        url: "https://example.com/financial-aid",
+        excerpt: "Strengths, Weaknesses, Opportunities, and Threats of Crowdfunding by CrowdfundingHealth.org",
+        body: `
+            <p></p>
+        `,
+    },
+    {
+        title: "Opportunities, and Threats of Crowdfunding",
+        url: "https://example.com/financial-aid",
+        excerpt: "Strengths, Weaknesses, Opportunities, and Threats of Crowdfunding by CrowdfundingHealth.org",
+        body: `
+            <p></p>
+        `,
+    },
+    {
+        title: "Opportunities, and Threats of Crowdfunding",
+        url: "https://example.com/financial-aid",
+        excerpt: "Strengths, Weaknesses, Opportunities, and Threats of Crowdfunding by CrowdfundingHealth.org",
+        body: `
+            <p></p>
         `,
     },
    

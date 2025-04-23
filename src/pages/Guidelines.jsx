@@ -4,14 +4,11 @@ import Layout from '../components/Layout';
 
 const guidelines = [ 
     {
-        title: "Just an example : Academic Integrity Guidelines",
-        url: "https://example.com/academic-integrity",
-        excerpt: "A guide to understanding and maintaining academic integrity in your studies, including policies on plagiarism and cheating.",
+        title: "Research and Publishing Support",
+        url: "https://www.library.yorku.ca/web/research-learn/research/",
+        excerpt: "Research and Publishing Support provided at York University.",
         body: `
-            <p>This outlines the principles of academic integrity, providing guidance on how to uphold ethical standards in your academic work. 
-            It covers topics such as proper citation, avoiding plagiarism, and understanding institutional policies on cheating. 
-            Students can find practical tips for maintaining integrity and resources for seeking help. 
-            For more details, consult your institution’s academic integrity office or visit the provided link.</p>
+            <p>The Research & Learn – Research and Publishing Support page from York University Libraries offers a comprehensive suite of services and resources designed to support students, faculty, and researchers throughout the research and publication process.​</p>
         `,
     },
     {

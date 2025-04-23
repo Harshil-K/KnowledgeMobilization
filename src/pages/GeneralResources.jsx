@@ -31,6 +31,22 @@ const generalResources = [
            
         `,
     },
+    {
+        title: "Academic Freedom and the Inclusive University",
+        url: "https://www.tandfonline.com/doi/full/10.1080/14680777.2025.2455933?src=",
+        excerpt: "Academic Freedom and the Inclusive University: Tensions, Challenges, and Opportunities by Sharon Stein, Roopa Desai Trilokekar, Sepideh Mahani, Jennifer Berdahl",
+        body: `
+            <p>This article explores tensions between academic freedom and university inclusivity, critical for HPSM researchers facing backlash. It notes that academic freedom protects controversial research but can conflict with demands for safe spaces, recommending institutional policies like clear harassment protocols and legal support. Suggesting transparent communication to mitigate misinterpretations, it clarifies how academic freedom empowers HPSM researchers to share sensitive work while navigating inclusivity concerns, supporting fearless knowledge mobilization within equitable frameworks.</p>
+        `,
+    },
+    {
+        title: "Academic Freedom FAQS",
+        url: "https://www.aaup.org/programs/academic-freedom/faqs-academic-freedom",
+        excerpt: "FAQs on Academic Freedom by American Association of University Professors (AAUP)",
+        body: `
+            <p>This FAQ defines academic freedom as the right to research, teach, and speak without censorship, vital for controversial topics. It outlines protections against retaliation for public scholarship, advising documentation of institutional violations and legal recourse via unions or courts. Though U.S.-focused, its principles apply to Canadian contexts like York University, empowering HPSM researchers to defend their work under academic freedom, reducing fear of backlash and supporting confident knowledge mobilization in sensitive research areas.</p>
+        `,
+    },
 ];
 
 const GeneralResources = () => {

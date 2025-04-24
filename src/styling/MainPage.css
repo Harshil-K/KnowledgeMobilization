@@ -35,6 +35,8 @@
 
 .about-obscura p {
   margin-bottom: 1.5rem;
+  font-style: italic; /* Italics for art references */
+
 }
 
 .team-section {

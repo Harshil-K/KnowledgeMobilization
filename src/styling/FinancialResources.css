@@ -66,6 +66,8 @@
     line-height: 1rem;
     margin-top: 1rem;
     font-family: "Neue Montreal", sans-serif; 
+    font-style: italic; /* Italics for art references */
+
   }
   
   .read-more-link {

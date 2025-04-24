@@ -3,13 +3,7 @@ import '../styling/Guidelines.css';
 import Layout from '../components/Layout';
 
 const guidelines = [ 
-    {
-        title: "Research and Publishing Support",
-        url: "https://www.library.yorku.ca/web/research-learn/research/",
-        body: `
-            <p>The Research & Learn – Research and Publishing Support page from York University Libraries offers a comprehensive suite of services and resources designed to support students, faculty, and researchers throughout the research and publication process.​</p>
-        `,
-    },
+    
   
 ];
 

@@ -9,7 +9,7 @@ function Navbar() {
     //Add the FAQ link in there.
     <nav className="navbar">
       <Link to="/">Home</Link>
-      <Link to="/guidelines">Guidelines</Link>
+      {/* <Link to="/guidelines">Guidelines</Link> */}
       <Link to="/generalresources">General Resources</Link>
       <Link to="/legalresources">Legal Resources</Link>
       <Link to="/financialresources">Financial Resources</Link>

@@ -35,6 +35,28 @@ const legalResources = [
            
         `,
     },
+    {
+        title: "Office of Equity, People and Culture – Scholarship Harassment",
+        url: "https://www.yorku.ca/vpepc/faculty-affairs/scholarship-harassment/",
+        body: `
+            <p>This page offers guidance for faculty and researchers experiencing scholarship harassment, including information on policies, support systems, and institutional reporting procedures. It aims to foster a safer and more inclusive academic environment.​</p>
+        `,
+    },
+    {
+        title: "Online Security – Office of Equity, People and Culture",
+        url: "https://www.yorku.ca/vpepc/faculty-affairs/scholarship-harassment-online/",
+        body: `
+            <p>A specialized resource to help faculty and researchers protect their digital identity, manage online abuse, and take preventive action. This page offers strategies and support for maintaining online safety in academic and public-facing work.​</p>
+        `,
+    },
+    {
+        title: "York Centre for Human Rights, Equity and Inclusion (REI)",
+        url: "https://www.yorku.ca/vpepc/faculty-affairs/scholarship-harassment-online/",
+        body: `
+            <p>The REI is York University’s central office for promoting equity, diversity, and inclusion. It provides education, advocacy, policy guidance, and case support for individuals facing harassment or discrimination on campus.​</p>
+        `,
+    },
+    
     
     
 ];

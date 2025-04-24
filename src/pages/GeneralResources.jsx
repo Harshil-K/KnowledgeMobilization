@@ -42,6 +42,20 @@ const generalResources = [
             <p>This FAQ defines academic freedom as the right to research, teach, and speak without censorship, vital for controversial topics. It outlines protections against retaliation for public scholarship, advising documentation of institutional violations and legal recourse via unions or courts. Though U.S.-focused, its principles apply to Canadian contexts like York University, empowering HPSM researchers to defend their work under academic freedom, reducing fear of backlash and supporting confident knowledge mobilization in sensitive research areas.</p>
         `,
     },
+    {
+        title: "Research and Publishing Support",
+        url: "https://www.library.yorku.ca/web/research-learn/research/",
+        body: `
+            <p>The Research & Learn – Research and Publishing Support page from York University Libraries offers a comprehensive suite of services and resources designed to support students, faculty, and researchers throughout the research and publication process.​</p>
+        `,
+    },
+    {
+        title: "REI – Resource Listing",
+        url: "https://rights.info.yorku.ca/resources/",
+        body: `
+            <p>This page offers a curated selection of documents, training tools, policy links, and support materials related to human rights, harassment prevention, and equity on campus. Suitable for both students and faculty.​</p>
+        `,
+    },
 ];
 
 const GeneralResources = () => {

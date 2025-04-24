@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import '../styling/MissionPage.css'
 
 function MissionPage(){
+    const url2 = "https://youtube.com/embed/Reuocdf6pqk?si=O4KIhlGb0I5eBCX1";
     return(
         <Layout>
         <img src={banner} alt="Banner" className="banner-image" />
@@ -38,6 +39,11 @@ function MissionPage(){
             is on creating a safe, inclusive space for sharing knowledge; one that supports equity 
             and helps build stronger connections through learning.
             </p>
+        </section>
+        <section className='video-container'>
+            <div className="video-wrapper">
+                <iframe src={url2} className="video-iframe" width="800" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
         </section>
         </Layout>
     )

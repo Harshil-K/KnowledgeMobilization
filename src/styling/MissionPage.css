@@ -29,3 +29,24 @@
 
   }
   
+  .video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 50px;
+  }
+  
+  .video-wrapper {
+    margin: 10px;
+    border: 2px solid #ccc; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Optional: Ensure the iframe fits within the wrapper */
+    width: 400px;
+    height: 320px;
+  }
+  
+  .video-iframe {
+    width: 100%; /* Make iframe responsive */
+    height: 315px; /* Maintain height */
+  }
+  

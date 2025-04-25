@@ -13,11 +13,13 @@
   display: block;   
 }
 
-.about-section {
+.about-section h2 {
   margin-top: 3rem;
   margin-bottom: 3rem;
   color: #010101;
   background-color: transparent;
+  font-family: 'Ibarra Real Nova', serif; /* Use Ibarra Real Nova for titles */
+  font-weight: bold;
 }
 
 .about-obscura {
@@ -31,6 +33,8 @@
   border-radius: 8px;
   background-color: transparent;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  font-family: 'Neue Montreal', sans-serif; /* Use Neue Montreal for information */
+  font-style: italic;
 }
 
 .about-obscura p {

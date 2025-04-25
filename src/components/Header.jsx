@@ -15,7 +15,7 @@ function Header() {
 
         <h1 className="site-title">OBSCURA</h1>
 
-        <img src="c4_logo.png" alt="Icon" className="logo" />
+        <img src="c4_logo_removebg.png" alt="Icon" className="logo" />
       </div>
 
         <div className="full-width-divider"></div>

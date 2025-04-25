@@ -16,8 +16,8 @@
   }
   
   .mission h2 {
+    margin-top: 4rem;
     color: #010101;
-    font-size: 2rem;
     margin-bottom: 1rem;
     font-family: 'Ibarra Real Nova', serif; /* Use Ibarra Real Nova for titles */
     font-weight: bold;

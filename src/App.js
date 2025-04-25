@@ -8,6 +8,8 @@ import RAFormPage from './pages/RAFormPage';
 import Guidelines from './pages/Guidelines';
 import FAQ from './pages/FAQ';
 import MissionPage from'./pages/MissionPage';
+import SurveyStatsPage from './pages/SurveyStatsPage';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Route path="/generalresources" element={<GeneralResources/>} />
       <Route path="/financialresources" element={<FinancialResources/>} />
       <Route path="/faq" element={<FAQ/>} />
+      <Route path="/survey" element={<SurveyStatsPage />} />
       <Route path="/mission" element={<MissionPage/>} />
       <Route path="/guidelines" element={<Guidelines/>} />
     </Routes>

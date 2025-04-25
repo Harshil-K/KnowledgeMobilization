@@ -14,6 +14,7 @@ function Navbar() {
       <Link to="/legalresources">Legal Resources</Link>
       <Link to="/financialresources">Financial Resources</Link>
       <Link to="/RAForm">Risk Assessment Form</Link>
+      <Link to="/survey">Survey Results</Link>
       <Link to="/mission">Our Goals</Link>
       <Link to="/faq">FAQ</Link>
     </nav>

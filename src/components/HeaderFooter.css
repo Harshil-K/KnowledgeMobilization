@@ -68,11 +68,85 @@ background-color: transparent;
   border-bottom: 2px solid #96151C;
 }
 
-.footer {
-  background-color: #fff;
-  text-align: center;
-  padding: 1.5rem 1rem;
-  font-size: 0.95rem;
-  font-family: 'Georgia', serif;
-  border-top: 1px solid #010101;
+.enhanced-footer {
+  background-color: #fff; /* White background */
+  padding: 40px 20px; /* Padding for spacing */
+  border-top: 1px solid #ddd; /* Optional: subtle top border */
+  font-family: Arial, sans-serif; /* Common font */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Space out left and right sections */
+  max-width: 1200px; /* Limit width for larger screens */
+  margin: 0 auto; /* Center the container */
+}
+
+.footer-left {
+  max-width: 50%; /* Take up half the space */
+}
+
+.footer-heading {
+  color: #a6192e; /* Red color from the image */
+  font-size: 24px; /* Larger heading */
+  font-weight: bold;
+  margin-bottom: 15px; /* Space below heading */
+}
+
+.footer-text {
+  color: #333; /* Dark gray for readability */
+  font-size: 14px; /* Smaller text */
+  line-height: 1.5; /* Improve readability */
+  margin-bottom: 20px; /* Space below paragraph */
+}
+
+.york-logo {
+  max-width: 200px; /* Adjust logo size */
+  height: auto;
+}
+
+.footer-right {
+  max-width: 40%; /* Slightly less than half */
+  text-align: left; /* Align text to the left */
+}
+
+.footer-email,
+.footer-address {
+  color: #333; /* Dark gray for text */
+  font-size: 14px; /* Same size as paragraph */
+  line-height: 1.5; /* Match paragraph line height */
+  margin-bottom: 10px; /* Space between email and address */
+}
+
+.footer-email strong,
+.footer-address strong {
+  font-weight: bold; 
+}
+
+.footer-email a {
+  color: #333; 
+  text-decoration: none; 
+}
+
+.footer-email a:hover {
+  text-decoration: underline; 
+}
+
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .footer-left,
+  .footer-right {
+    max-width: 100%;
+    margin-bottom: 20px; 
+  }
+
+  .footer-right {
+    text-align: center; 
+  }
 }

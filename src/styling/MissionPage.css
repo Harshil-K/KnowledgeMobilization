@@ -2,6 +2,7 @@
     max-width: 800px;
     margin: 0rem auto;
     text-align: center;
+    
   }
   
   .banner-image {
@@ -14,10 +15,22 @@
     display: block;   
   }
   
-  h2 {
+  .mission h2 {
     color: #010101;
     font-size: 2rem;
     margin-bottom: 1rem;
+    font-family: 'Ibarra Real Nova', serif; /* Use Ibarra Real Nova for titles */
+    font-weight: bold;
+  }
+
+  .vision h2{
+    font-family: 'Ibarra Real Nova', serif; /* Use Ibarra Real Nova for titles */
+    font-weight: bold;
+  }
+
+  .values h2{
+    font-family: 'Ibarra Real Nova', serif; /* Use Ibarra Real Nova for titles */
+    font-weight: bold;
   }
   
   .justified-text {
@@ -25,7 +38,8 @@
     font-size: 1.1rem;
     line-height: 1.6;
     text-align: justify;
-    font-style: italic; /* Italics for art references */
+    font-family: 'Neue Montreal', sans-serif; /* Use Neue Montreal for information */
+    font-style: italic;
 
   }
   
